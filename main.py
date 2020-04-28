@@ -191,7 +191,7 @@ class ModBot(commands.Bot):
               '│██████████████████░░ 93% │\n'
               '└─────────────────────────┘\n')
 
-        status = "@Mod help | Massachusetts Live by Slipknot 🔂"
+        status = "TheNeel Gaming"
         await self.change_presence(status=discord.Status.online,
                                    activity=discord.Activity(type=discord.ActivityType.listening,
                                                              name=status))
